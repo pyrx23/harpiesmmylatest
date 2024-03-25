@@ -1,0 +1,77 @@
+@media screen and (max-width:500px) {
+
+
+    .harpie_modal {
+        /* display: none; */
+        max-height: none;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: none;
+        margin: 0px;
+        bottom: 0;
+        width: 100dvw;
+        min-width: auto;
+        height: 90dvh;
+        border-radius: 0px;
+        border-top-right-radius: 1rem;
+        border-top-left-radius: 1rem;
+
+    }
+
+
+
+    .harpie_modal .dialog_content>.one {
+        display: flex;
+        width: 40%;
+    }
+
+    .harpie_modal .dialog_content>.one .txt {
+        display: none;
+    }
+
+    .dialog_content>.two {
+        /* background-color: red; */
+        width: 60%;
+        font-weight: 800;
+    }
+
+    .dialog_content>.two>.wallets {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        margin: 0px;
+        gap: 1rem;
+        /* align-items: center; */
+        overflow-y: scroll;
+    }
+
+    .wallets>.wallet {
+        margin-left: auto;
+        margin-right: auto;
+
+        padding: 0.6rem 0;
+        border: 1px solid #C1C4C9;
+        gap: 20px;
+        width: auto;
+        min-width: 80%;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 1rem;
+        justify-content: start;
+
+    }
+
+    .harpie_modal .dialog_content>.one .donthavewallet {
+        margin-top: auto;
+    }
+
+    .indicator {
+        /* margin-top: auto; */
+    }
+
+    .poweredBy {
+        margin-top: 0;
+
+    }
+
+}

@@ -1,0 +1,65 @@
+ .tst {
+     margin-right: auto;
+ }
+
+ .enterAppBtn {
+
+     /* background-color: white; */
+     z-index: 3;
+ }
+.hiddenn{
+    display: none !important;
+    visibility: hidden !important;
+}
+
+.hiddenSm {
+    display: block !important;
+}
+@media screen and (max-width:765px) {
+    .hiddenSm {
+        display: none !important
+    }
+}
+
+ .navv {
+     backdrop-filter: blur(8px);
+     -webkit-backdrop-filter: blur(8px);
+     background-color: rgba(17, 17, 18, 0.9);
+     border-bottom: 3px solid black;
+ }
+
+ .upnav {
+     position: fixed;
+     z-index: 1;
+     top: 90px;
+     right: 0;
+     left: 0;
+     background: #111112;
+     display: none;
+ }
+
+ .upnav .eachnav {
+     border-bottom: 1px solid rgba(192, 192, 192, 0.5);
+     color: white;
+     text-align: center;
+     font-size: 15px;
+     padding: 20px 0px;
+     cursor: pointer;
+     width: 100%;
+ }
+
+ .closebtn {
+     font-size: 20px;
+     font-weight: bold;
+     color: #ee773f;
+     right: 0;
+     top: 0;
+     position: fixed;
+     padding: 35px 20px;
+     z-index: 21;
+     background: #111112;
+     cursor: pointer;
+     display: none;
+ }
+
+ @media only screen and (max-width: 764px) {}

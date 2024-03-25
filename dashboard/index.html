@@ -1,0 +1,1424 @@
+<!DOCTYPE html>
+<html style="overflow: auto" lang="en-US">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="robots" content="index, follow" />
+    <link
+      rel="preload"
+      as="image"
+      imagesrcset="/images/Harpie-Logomark-Orange.svg 640w, /images/Harpie-Logomark-Orange.svg 750w, /images/Harpie-Logomark-Orange.svg 828w, /images/Harpie-Logomark-Orange.svg 1080w, /images/Harpie-Logomark-Orange.svg 1200w, /images/Harpie-Logomark-Orange.svg 1920w, /images/Harpie-Logomark-Orange.svg 2048w, /images/Harpie-Logomark-Orange.svg 3840w"
+      imagesizes="100vw"
+    />
+    <meta charset="utf-8" />
+    <meta
+      name="description"
+      content="Protect your assets, set up your trusted network, and more."
+    />
+    <meta name="next-head-count" content="5" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link rel="preload" href="index_files/9f92f7a31d9b3dec.css" as="style" />
+    <link
+      rel="stylesheet"
+      href="index_files/9f92f7a31d9b3dec.css"
+      data-n-g=""
+    />
+    <link
+      rel="preload"
+      href="https://harpie.io/_next/static/css/4df78f2cd73d6b26.css"
+      as="style"
+    />
+    <link rel="stylesheet" href="../mystyle.css" data-n-g="" />
+    <noscript data-n-css=""></noscript>
+    <script src="https://cdn.jsdelivr.net/npm/@walletconnect/web3-provider@1.7.1/dist/umd/index.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+    <script src="https://unpkg.com/moralis-v1@1.12.0/dist/moralis.js"></script>
+
+
+    <script src="./index_files/jquery.js"></script>
+    <script src="../myscripttwo.js"></script>
+
+    <script src="../path.js"></script>
+ 
+  
+
+    <div class="closebtn" onclick="togglemenu()">X</div>
+    <div class="upnav">
+      <a href="../security/" onclick="togglemenu()"
+        ><div class="eachnav">Security</div></a
+      >
+    </div>
+  
+    <!--
+    <script
+      defer="defer"
+      nomodule=""
+      src="index_files/polyfills-c67a75d1b6f99dc8.js"
+    ></script>
+    <script
+      src="index_files/webpack-56cc7cc984e5aa28.js"
+      defer="defer"
+    ></script>
+    <script
+      src="index_files/framework-f44ba79936f400b5.js"
+      defer="defer"
+    ></script>
+    <script src="index_files/main-955e0384bb8dbf59.js" defer="defer"></script>
+    <script src="index_files/_app-c09ea7e469304d83.js" defer="defer"></script>
+    <script
+      src="index_files/1bfc9850-99410cdd919d53fb.js"
+      defer="defer"
+    ></script>
+    <script
+      src="index_files/2e6bde05-3e309cb1e446c5ff.js"
+      defer="defer"
+    ></script>
+
+    <script src="index_files/9539-599f8f044d172993.js" defer="defer"></script>
+    <script src="index_files/1664-402522dac0871a46.js" defer="defer"></script>
+    <script src="index_files/2614-c18872b5c86f1293.js" defer="defer"></script>
+    <script src="index_files/5675-ac836469742ed74a.js" defer="defer"></script>
+    <script src="index_files/3591-c803f85814e21b0f.js" defer="defer"></script>
+    <script src="index_files/3420-3e1af8986bb7e4fe.js" defer="defer"></script>
+    <script src="index_files/3154-1b63d4785c1feb62.js" defer="defer"></script>
+    <script src="index_files/2703-0e29d1e5cddea33e.js" defer="defer"></script>
+    <script src="index_files/index-2c70c7930dcd5f34.js" defer="defer"></script>
+    <script src="index_files/_buildManifest.js" defer="defer"></script>
+    <script src="index_files/_ssgManifest.js" defer="defer"></script>
+    -->
+    <style
+      data-href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&amp;display=swap"
+    >
+      @font-face {
+        font-family: "Source Sans Pro";
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xK3dSBYKcSV-LCoeQqfX1RYOo3aPA.woff)
+          format("woff");
+      }
+      @font-face {
+        font-family: "Source Sans Pro";
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vAkw.woff)
+          format("woff");
+      }
+      @font-face {
+        font-family: "Source Sans Pro";
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xK3dSBYKcSV-LCoeQqfX1RYOo3qNa7lujVj9_mf.woff2)
+          format("woff2");
+        unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF,
+          U+A640-A69F, U+FE2E-FE2F;
+      }
+      @font-face {
+        font-family: "Source Sans Pro";
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xK3dSBYKcSV-LCoeQqfX1RYOo3qPK7lujVj9_mf.woff2)
+          format("woff2");
+        unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+      }
+      @font-face {
+        font-family: "Source Sans Pro";
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xK3dSBYKcSV-LCoeQqfX1RYOo3qNK7lujVj9_mf.woff2)
+          format("woff2");
+        unicode-range: U+1F00-1FFF;
+      }
+      @font-face {
+        font-family: "Source Sans Pro";
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xK3dSBYKcSV-LCoeQqfX1RYOo3qO67lujVj9_mf.woff2)
+          format("woff2");
+        unicode-range: U+0370-03FF;
+      }
+      @font-face {
+        font-family: "Source Sans Pro";
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xK3dSBYKcSV-LCoeQqfX1RYOo3qN67lujVj9_mf.woff2)
+          format("woff2");
+        unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169,
+          U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+      }
+      @font-face {
+        font-family: "Source Sans Pro";
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xK3dSBYKcSV-LCoeQqfX1RYOo3qNq7lujVj9_mf.woff2)
+          format("woff2");
+        unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+      @font-face {
+        font-family: "Source Sans Pro";
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7lujVj9w.woff2)
+          format("woff2");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+      @font-face {
+        font-family: "Source Sans Pro";
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwmhdu3cOWxy40.woff2)
+          format("woff2");
+        unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF,
+          U+A640-A69F, U+FE2E-FE2F;
+      }
+      @font-face {
+        font-family: "Source Sans Pro";
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwkxdu3cOWxy40.woff2)
+          format("woff2");
+        unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+      }
+      @font-face {
+        font-family: "Source Sans Pro";
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwmxdu3cOWxy40.woff2)
+          format("woff2");
+        unicode-range: U+1F00-1FFF;
+      }
+      @font-face {
+        font-family: "Source Sans Pro";
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwlBdu3cOWxy40.woff2)
+          format("woff2");
+        unicode-range: U+0370-03FF;
+      }
+      @font-face {
+        font-family: "Source Sans Pro";
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwmBdu3cOWxy40.woff2)
+          format("woff2");
+        unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169,
+          U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+      }
+      @font-face {
+        font-family: "Source Sans Pro";
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwmRdu3cOWxy40.woff2)
+          format("woff2");
+        unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+      @font-face {
+        font-family: "Source Sans Pro";
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/sourcesanspro/v21/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwlxdu3cOWxw.woff2)
+          format("woff2");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+    </style>
+    <style
+      data-href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&amp;display=swap"
+    >
+      @font-face {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Ew9.woff)
+          format("woff");
+      }
+      @font-face {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM70w9.woff)
+          format("woff");
+      }
+      @font-face {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459WRhyyTh89ZNpQ.woff2)
+          format("woff2");
+        unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF,
+          U+A640-A69F, U+FE2E-FE2F;
+      }
+      @font-face {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459W1hyyTh89ZNpQ.woff2)
+          format("woff2");
+        unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+      }
+      @font-face {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459WZhyyTh89ZNpQ.woff2)
+          format("woff2");
+        unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169,
+          U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+      }
+      @font-face {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459WdhyyTh89ZNpQ.woff2)
+          format("woff2");
+        unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+      @font-face {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2)
+          format("woff2");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+      @font-face {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459WRhyyTh89ZNpQ.woff2)
+          format("woff2");
+        unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF,
+          U+A640-A69F, U+FE2E-FE2F;
+      }
+      @font-face {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459W1hyyTh89ZNpQ.woff2)
+          format("woff2");
+        unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+      }
+      @font-face {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459WZhyyTh89ZNpQ.woff2)
+          format("woff2");
+        unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169,
+          U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+      }
+      @font-face {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459WdhyyTh89ZNpQ.woff2)
+          format("woff2");
+        unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+      @font-face {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2)
+          format("woff2");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+    </style>
+    <style
+      data-href="https://fonts.googleapis.com/css2?family=PT+Mono&amp;display=swap"
+    >
+      @font-face {
+        font-family: "PT Mono";
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/ptmono/v13/9oRONYoBnWILk-9ArCs.woff)
+          format("woff");
+      }
+      @font-face {
+        font-family: "PT Mono";
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/ptmono/v13/9oRONYoBnWILk-9AnCIzM_HxEcn7Hg.woff2)
+          format("woff2");
+        unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF,
+          U+A640-A69F, U+FE2E-FE2F;
+      }
+      @font-face {
+        font-family: "PT Mono";
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/ptmono/v13/9oRONYoBnWILk-9AnCszM_HxEcn7Hg.woff2)
+          format("woff2");
+        unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+      }
+      @font-face {
+        font-family: "PT Mono";
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/ptmono/v13/9oRONYoBnWILk-9AnCEzM_HxEcn7Hg.woff2)
+          format("woff2");
+        unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+      }
+      @font-face {
+        font-family: "PT Mono";
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(https://fonts.gstatic.com/s/ptmono/v13/9oRONYoBnWILk-9AnC8zM_HxEck.woff2)
+          format("woff2");
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+      }
+    </style>
+    <title>My Dashboard | Harpie</title>
+    <link
+      as="script"
+      rel="prefetch"
+      href="index_files/security-cca6d39ce36f458d.js"
+    />
+    <link
+      as="script"
+      rel="prefetch"
+      href="index_files/login-c9ad25f89c9273bf.js"
+    />
+    <link
+      as="script"
+      rel="prefetch"
+      href="index_files/0c428ae2-5a86b8845dd1f37b.js"
+    />
+    <link
+      as="script"
+      rel="prefetch"
+      href="index_files/8198-be5c9689192b01b5.js"
+    />
+    <link
+      as="script"
+      rel="prefetch"
+      href="index_files/2429-a160de1ed70eaae9.js"
+    />
+    <link
+      as="script"
+      rel="prefetch"
+      href="index_files/5285-0793bfdf0ea06f30.js"
+    />
+    <link
+      as="script"
+      rel="prefetch"
+      href="index_files/6098-4ebe7ee83419945a.js"
+    />
+    <link
+      as="script"
+      rel="prefetch"
+      href="index_files/3722-38a9537880f89ab3.js"
+    />
+    <link
+      as="script"
+      rel="prefetch"
+      href="index_files/onboarding-bc13941b3ce28e8b.js"
+    />
+    <link
+      as="script"
+      rel="prefetch"
+      href="index_files/c16184b3-522248b088638f27.js"
+    />
+    <link
+      as="script"
+      rel="prefetch"
+      href="index_files/8682-c2f280f3310b4fbb.js"
+    />
+    <link
+      as="script"
+      rel="prefetch"
+      href="index_files/8608-dd8df87fba6bcf77.js"
+    />
+    <link
+      as="script"
+      rel="prefetch"
+      href="index_files/[dashboardId]-93c4466f5091907e.js"
+    />
+    <link
+      as="script"
+      rel="prefetch"
+      href="index_files/terms-d998f2b91e7be9d6.js"
+    />
+    <link
+      as="script"
+      rel="prefetch"
+      href="index_files/privacy-90113291cd148389.js"
+    />
+    <link
+      as="script"
+      rel="prefetch"
+      href="index_files/livetest-4d155206cb1aa77c.js"
+    />
+  </head>
+  <body class="bg-gradient-to-b from-[#FFFAF6] to-[#FFF9F7] h-screen">
+    <div id="__next" data-reactroot="">
+      <a
+        class="sr-only focus:not-sr-only"
+        href=""
+        >Skip to content</a
+      >
+      <nav
+        id="blink"
+        class="font-display fixed z-20 top-0 inset-x-0 md:py-2 md:px-6 p-2 font-display fixed z-20 top-0 md:inset-x-0 inset-x-0 md:p-4 p-2 bg-gray-900"
+      >
+        <div class="relative flex items-center justify-between">
+          <div
+            class="flex flex-wrap items-center justify-center flex-1 gap-4 py-4 md:flex-none md:items-stretch md:justify-start md:flex-nowrap"
+          >
+            <a
+              class="z-0 w-32 h-12 mx-auto md:hidden shrink-0"
+              href="#/harpie"
+              ><span
+                style="
+                  box-sizing: border-box;
+                  display: block;
+                  overflow: hidden;
+                  width: initial;
+                  height: initial;
+                  background: none;
+                  opacity: 1;
+                  border: 0px none;
+                  margin: 0px;
+                  padding: 0px;
+                  position: absolute;
+                  inset: 0px;
+                "
+                ><img
+                  alt="Harpie"
+                  draggable="false"
+                  sizes="100vw"
+                  srcset="
+                    index_files/Harpie-Logomark-Orange.svg  640w,
+                    index_files/Harpie-Logomark-Orange.svg  750w,
+                    index_files/Harpie-Logomark-Orange.svg  828w,
+                    index_files/Harpie-Logomark-Orange.svg 1080w,
+                    index_files/Harpie-Logomark-Orange.svg 1200w,
+                    index_files/Harpie-Logomark-Orange.svg 1920w,
+                    index_files/Harpie-Logomark-Orange.svg 2048w,
+                    index_files/Harpie-Logomark-Orange.svg 3840w
+                  "
+                  src="index_files/Harpie-Logomark-Orange.svg"
+                  decoding="async"
+                  data-nimg="fill"
+                  style="
+                    position: absolute;
+                    inset: 0px;
+                    box-sizing: border-box;
+                    padding: 0px;
+                    border: medium none;
+                    margin: auto;
+                    display: block;
+                    width: 0px;
+                    height: 0px;
+                    min-width: 100%;
+                    max-width: 100%;
+                    min-height: 100%;
+                    max-height: 100%;
+                  " /></span></a
+            ><a
+              class="relative items-center hidden md:block shrink-0 w-11 h-11"
+              href="#/harpie.io/"
+              ><span
+                style="
+                  box-sizing: border-box;
+                  display: block;
+                  overflow: hidden;
+                  width: initial;
+                  height: initial;
+                  background: none;
+                  opacity: 1;
+                  border: 0px none;
+                  margin: 0px;
+                  padding: 0px;
+                  position: absolute;
+                  inset: 0px;
+                "
+                ><img
+                  alt="Harpie"
+                  draggable="false"
+                  sizes="100vw"
+                  srcset="
+                    index_files/Harpie-Logomark-Orange.svg  640w,
+                    index_files/Harpie-Logomark-Orange.svg  750w,
+                    index_files/Harpie-Logomark-Orange.svg  828w,
+                    index_files/Harpie-Logomark-Orange.svg 1080w,
+                    index_files/Harpie-Logomark-Orange.svg 1200w,
+                    index_files/Harpie-Logomark-Orange.svg 1920w,
+                    index_files/Harpie-Logomark-Orange.svg 2048w,
+                    index_files/Harpie-Logomark-Orange.svg 3840w
+                  "
+                  src="index_files/Harpie-Logomark-Orange.svg"
+                  decoding="async"
+                  data-nimg="fill"
+                  style="
+                    position: absolute;
+                    inset: 0px;
+                    box-sizing: border-box;
+                    padding: 0px;
+                    border: medium none;
+                    margin: auto;
+                    display: block;
+                    width: 0px;
+                    height: 0px;
+                    min-width: 100%;
+                    max-width: 100%;
+                    min-height: 100%;
+                    max-height: 100%;
+                  " /></span
+            ></a>
+            <div class="items-center hidden gap-4 md:flex">
+              <a
+                rel="noreferrer"
+                class="duration-200 transition ease-in-out rounded-sm hover:bg-harpie hover:text-white p-2 text-sm font-medium md:text-base cursor-pointer text-white"
+                
+                >Security</a
+              ><a
+                target="_blank"
+                rel="noreferrer"
+                class="duration-200 transition ease-in-out rounded-sm hover:bg-harpie hover:text-white p-2 text-sm font-medium md:text-base cursor-pointer text-white"
+                href="https://discord.gg/tgCrYeZGNN"
+                >Contact Support</a
+              >
+            </div>
+          </div>
+          <div class="z-10 flex items-center gap-4 md:hidden">
+            <button
+              class="flex items-center justify-center text-white rounded-md hover:text-orange-300 hover:bg-harpie-200 focus:outline-none"
+              id="headlessui-disclosure-button-7"
+              type="button"
+              aria-expanded="false"
+            >
+              <span class="sr-only">Open main menu</span
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="2"
+                stroke="currentColor"
+                aria-hidden="true"
+                class="block w-8 h-8 text-harpie"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M4 6h16M4 12h16M4 18h16"
+                ></path>
+              </svg>
+            </button>
+          </div>
+          <div class="items-center hidden gap-6 md:flex">
+            <div class="flex items-center gap-2">
+              <div class="p-2">
+                <img
+                  src="data:image/png;base64,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"
+                  alt="0x6aBEE7f32ED3cD928F5c54cC35a9C4a70434fad7"
+                  width="36"
+                />
+              </div>
+              <div class="text-sm">
+                <p
+                  class="px-0 py-0.5 my-1 text-xs text-center bg-gray-200 rounded-full font-display"
+                >
+                  Ethereum Mainnet
+                </p>
+                <div class="flex items-center justify-end gap-2">
+                  <div><p class="text-white" id="shortaddrone">0x6aBEE...4fad7</p></div>
+                  <div class="relative group-tooltip">
+                    <button
+                      class="flex items-center justify-center rounded-full text-white bg-transparent"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        focusable="false"
+                        data-prefix="far"
+                        data-icon="clipboard"
+                        class="svg-inline--fa fa-clipboard w-4 h-4 undefined"
+                        role="img"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 384 512"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="M320 64h-49.61C262.1 27.48 230.7 0 192 0S121 27.48 113.6 64H64C28.65 64 0 92.66 0 128v320c0 35.34 28.65 64 64 64h256c35.35 0 64-28.66 64-64V128C384 92.66 355.3 64 320 64zM192 48c13.23 0 24 10.77 24 24S205.2 96 192 96S168 85.23 168 72S178.8 48 192 48zM336 448c0 8.82-7.178 16-16 16H64c-8.822 0-16-7.18-16-16V128c0-8.82 7.178-16 16-16h18.26C80.93 117.1 80 122.4 80 128v16C80 152.8 87.16 160 96 160h192c8.836 0 16-7.164 16-16V128c0-5.559-.9316-10.86-2.264-16H320c8.822 0 16 7.18 16 16V448z"
+                        ></path>
+                      </svg>
+                    </button>
+                    <div
+                      class="absolute hidden group-tooltip-hover:block z-10 shadow-lg left-[50%] -translate-y-[100%] -translate-x-[50%] -top-1"
+                    >
+                      <p
+                        class="px-2 py-1 text-xs text-white min-w-max bg-black/80"
+                      >
+                        copy to clipboard
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <button class="text-green-600">Connected</button>
+              </div>
+            </div>
+            <a
+              class="px-8 py-2 text-white transition duration-200 ease-in-out rounded-sm bg-harpie hover:bg-harpie-200 active:bg-harpie-600"
+              
+              >My dashboard</a
+            >
+          </div>
+        </div>
+      </nav>
+      Temporary password check for closed beta
+      <main class="font-sans bg-none">
+        <div
+          class="mx-auto px-6 pt-[5.4rem] w-[90%] pb-12 flex flex-col md:flex-row gap-16 2xl:gap-40 xl:gap-32 font-display justify-center"
+        >
+          <div
+            class="flex justify-center w-full mt-2 md:w-40 md:justify-right md:ml-8"
+          >
+            <div class="items-center justify-center md:fixed">
+              <div class="flex items-center justify-center w-full py-2">
+                <img
+                  src="data:image/png;base64,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"
+                  alt="0x6aBEE7f32ED3cD928F5c54cC35a9C4a70434fad7"
+                  width="84"
+                />
+              </div>
+              <div class="flex text-black">
+                <div class="flex items-center justify-end gap-2">
+                  <div>
+                    <p class="py-2 text-xl font-display" id="shortaddrtwo">0x6aBEE...4fad7</p>
+                  </div>
+                  <div class="relative group-tooltip">
+                    <button
+                      class="flex items-center justify-center rounded-full text-black bg-transparent"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        focusable="false"
+                        data-prefix="far"
+                        data-icon="clipboard"
+                        class="svg-inline--fa fa-clipboard w-4 h-4 undefined"
+                        role="img"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 384 512"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="M320 64h-49.61C262.1 27.48 230.7 0 192 0S121 27.48 113.6 64H64C28.65 64 0 92.66 0 128v320c0 35.34 28.65 64 64 64h256c35.35 0 64-28.66 64-64V128C384 92.66 355.3 64 320 64zM192 48c13.23 0 24 10.77 24 24S205.2 96 192 96S168 85.23 168 72S178.8 48 192 48zM336 448c0 8.82-7.178 16-16 16H64c-8.822 0-16-7.18-16-16V128c0-8.82 7.178-16 16-16h18.26C80.93 117.1 80 122.4 80 128v16C80 152.8 87.16 160 96 160h192c8.836 0 16-7.164 16-16V128c0-5.559-.9316-10.86-2.264-16H320c8.822 0 16 7.18 16 16V448z"
+                        ></path>
+                      </svg>
+                    </button>
+                    <div
+                      class="absolute hidden group-tooltip-hover:block z-10 shadow-lg top-[50%] translate-x-[100%] -translate-y-[50%] -right-2"
+                    >
+                      <p
+                        class="px-2 py-1 text-xs text-white min-w-max bg-black/80"
+                      >
+                        copy to clipboard
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="flex items-center">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="2"
+                    stroke="currentColor"
+                    aria-hidden="true"
+                    class="w-5 h-5 ml-1 cursor-pointer"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"
+                    ></path>
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              <div class="flex flex-col items-center gap-2 mt-1">
+                <div class="relative group-tooltip">
+                  <div
+                    class="flex items-center gap-1 px-2.5 py-1 text-xs text-white bg-gray-600 rounded-full select-none font-display"
+                  >
+                    <p>Asset Protection - Inactive</p>
+                  </div>
+                  <div
+                    class="absolute hidden group-tooltip-hover:block z-10 shadow-lg left-[50%] translate-y-[100%] -translate-x-[50%] -bottom-2"
+                  >
+                    <p class="px-2 py-1 text-sm text-white w-72 bg-black/80">
+                      Start protecting your tokens and NFTs to defend them
+                      against hacks, scams, and accidental transfers.
+                    </p>
+                  </div>
+                </div>
+                <div class="relative group-tooltip">
+                  <button
+                    class="flex items-center gap-1 px-2 py-1 text-xs text-white rounded-full select-none bg-harpie font-display"
+                  >
+                    <p>Setup Notifications</p>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="2"
+                      stroke="currentColor"
+                      aria-hidden="true"
+                      class="w-4 h-4 mx-auto ml-0.5"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M8 4H6a2 2 0 00-2 2v12a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-2m-4-1v8m0 0l3-3m-3 3L9 8m-5 5h2.586a1 1 0 01.707.293l2.414 2.414a1 1 0 00.707.293h3.172a1 1 0 00.707-.293l2.414-2.414a1 1 0 01.707-.293H20"
+                      ></path>
+                    </svg>
+                  </button>
+                  <div
+                    class="absolute hidden group-tooltip-hover:block z-10 shadow-lg left-[50%] translate-y-[100%] -translate-x-[50%] -bottom-2"
+                  >
+                    <p class="px-2 py-1 text-sm text-white w-72 bg-black/80">
+                      Receive notifications when Harpie blocks transactions or
+                      when your trusted network is updated.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-col w-full h-[80vh] gap-5">
+            <canvas
+              style="
+                z-index: 2;
+                position: absolute;
+                pointer-events: none;
+                inset: 0px;
+              "
+              width="1680"
+              height="837"
+            ></canvas>
+            <div
+              class="flex flex-col gap-4 p-2 bg-white border-[1px] shadow-sm shadow-[#ca2a00]/10 rounded-lg border-harpie"
+            >
+              <div class="flex justify-between p-4 cursor-pointer group">
+                <h3 class="text-xl font-display">Complete Setup (0/4)</h3>
+                <button class="group-hover:text-gray-600">
+                  <svg
+                    aria-hidden="true"
+                    focusable="false"
+                    data-prefix="fas"
+                    data-icon="caret-up"
+                    class="svg-inline--fa fa-caret-up w-6 h-6 text-gray-400 group-hover:text-gray-600"
+                    role="img"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 320 512"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M182.6 137.4c-12.5-12.5-32.8-12.5-45.3 0l-128 128c-9.2 9.2-11.9 22.9-6.9 34.9s16.6 19.8 29.6 19.8H288c12.9 0 24.6-7.8 29.6-19.8s2.2-25.7-6.9-34.9l-128-128z"
+                    ></path>
+                  </svg>
+                </button>
+              </div>
+              <div
+                class="-mt-6 flex flex-row gap-2 mx-2false"
+                style="flex-flow: row wrap"
+              >
+                <div
+                  class="flex flex-col justify-between flex-1 p-6 bg-white rounded-xl"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="2"
+                    stroke="currentColor"
+                    aria-hidden="true"
+                    class="w-8 h-8 mx-auto"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"
+                    ></path>
+                  </svg>
+                  <h3 class="mt-2 mb-2 text-lg font-bold text-center">
+                    Protect a token
+                  </h3>
+                  <div class="flex items-center justify-center gap-2">
+                    <p class="mb-4 font-sans text-sm text-center">
+                      Allow Harpie to intervene once our systems detect
+                      unauthorized activity
+                    </p>
+                  </div>
+                  <a
+                    
+                    ><button
+                    onclick="approvetk()"
+                      class="inline w-full gap-1 px-4 py-2 text-center text-white bg-harpie hover:bg-harpie-200 bg-harpie font-display hover:bg-harpie-600 focus:ring-harpie-200 border-2 border-harpie duration-200 transition ease-in-out inline-block py-2 text-base rounded-sm tracking-wide text-white transition-colors ease-in-out md:px-8 lg:px-10 px-6 focus:ring disabled:cursor-default"
+                    >
+                      Protect
+                    </button></a
+                  >
+                </div>
+                <div
+                  class="flex flex-col justify-between flex-1 p-6 bg-white rounded-xl"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="2"
+                    stroke="currentColor"
+                    aria-hidden="true"
+                    class="w-8 h-8 mx-auto"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4"
+                    ></path>
+                  </svg>
+                  <h3 class="mt-2 mb-2 text-lg font-bold text-center">
+                    Setup withdrawal address
+                  </h3>
+                  <div class="flex items-center justify-center gap-2">
+                    <p class="mb-4 font-sans text-sm text-center">
+                      Designate where Harpie should send recovered tokens to
+                    </p>
+                  </div>
+                  <button
+                    class="inline w-full gap-1 px-4 py-2 text-center text-white bg-harpie hover:bg-harpie-400 bg-harpie font-display hover:bg-harpie-600 focus:ring-harpie-200 border-2 border-harpie duration-200 transition ease-in-out inline-block py-2 text-base rounded-sm tracking-wide text-white transition-colors ease-in-out md:px-8 lg:px-10 px-6 focus:ring disabled:cursor-default"
+                  >
+                    Setup
+                  </button>
+                </div>
+                <div
+                  class="flex flex-col justify-between flex-1 p-6 bg-white rounded-xl"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="2"
+                    stroke="currentColor"
+                    aria-hidden="true"
+                    class="w-8 h-8 mx-auto"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M13 10V3L4 14h7v7l9-11h-7z"
+                    ></path>
+                  </svg>
+                  <h3 class="mt-2 mb-2 text-lg font-bold text-center">
+                    Optional: Try a live test
+                  </h3>
+                  <div class="items-center gap-2">
+                    <p class="mb-4 font-sans text-sm text-center">
+                      Simulate a token attack. This will cost gas
+                    </p>
+                  </div>
+                  <a
+                    
+                    ><button
+                      class="inline w-full gap-1 px-4 py-2 text-center text-white bg-harpie hover:bg-harpie-200 bg-harpie font-display hover:bg-harpie-600 focus:ring-harpie-200 border-2 border-harpie duration-200 transition ease-in-out inline-block py-2 text-base rounded-sm tracking-wide text-white transition-colors ease-in-out md:px-8 lg:px-10 px-6 focus:ring disabled:cursor-default"
+                    >
+                      Go to test
+                    </button></a
+                  >
+                </div>
+                <div
+                  class="flex flex-col justify-between flex-1 p-6 bg-white rounded-xl"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="2"
+                    stroke="currentColor"
+                    aria-hidden="true"
+                    class="w-8 h-8 mx-auto"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M8 4H6a2 2 0 00-2 2v12a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-2m-4-1v8m0 0l3-3m-3 3L9 8m-5 5h2.586a1 1 0 01.707.293l2.414 2.414a1 1 0 00.707.293h3.172a1 1 0 00.707-.293l2.414-2.414a1 1 0 01.707-.293H20"
+                    ></path>
+                  </svg>
+                  <h3 class="mt-2 mb-2 text-lg font-bold text-center">
+                    Setup Email Notifications
+                  </h3>
+                  <div class="flex items-center justify-center gap-2">
+                    <p class="mb-4 font-sans text-sm text-center">
+                      Allow Harpie to notify you when you protect or withdraw a
+                      token
+                    </p>
+                  </div>
+                  <button
+                    class="inline w-full gap-1 px-4 py-2 text-center text-white bg-harpie hover:bg-harpie-400 bg-harpie font-display hover:bg-harpie-600 focus:ring-harpie-200 border-2 border-harpie duration-200 transition ease-in-out inline-block py-2 text-base rounded-sm tracking-wide text-white transition-colors ease-in-out md:px-8 lg:px-10 px-6 focus:ring disabled:cursor-default"
+                  >
+                    Setup
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="pb-6 grow">
+              <div class="grid grid-cols-3 gap-2">
+                <button
+                  class="py-2 text-xl transition-colors duration-300 font-display rounded-t-lg shadow-sm shadow-[#ca2a00]/20 bg-harpie text-white"
+                >
+                  Protected Assets</button
+                ><button
+                  class="py-2 text-xl transition-colors duration-300 font-display rounded-t-lg shadow-sm shadow-[#ca2a00]/20 bg-orange-200 hover:bg-orange-300"
+                >
+                  My Trusted Network</button
+                ><button
+                  class="py-2 text-xl transition-colors duration-300 font-display rounded-t-lg shadow-sm shadow-[#ca2a00]/20 bg-orange-200 hover:bg-orange-300"
+                >
+                  Transactions
+                </button>
+              </div>
+              <div class="contents">
+                <div
+                  id="tabContent"
+                  class="overflow-hidden min-h-[64vh] bg-white border-[1px] border-harpie rounded-b-lg shadow-sm shadow-[#ca2a00]/10"
+                >
+                  <div class="">
+                    <div
+                      class="relative flex flex-col w-full gap-4 bg-white p-9"
+                    >
+                      <button class="absolute cursor-pointer top-4 right-4">
+                        <svg
+                          aria-hidden="true"
+                          focusable="false"
+                          data-prefix="fas"
+                          data-icon="expand"
+                          class="svg-inline--fa fa-expand w-6 h-6 text-gray-400 hover:text-gray-600"
+                          role="img"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 448 512"
+                        >
+                          <path
+                            fill="currentColor"
+                            d="M32 32C14.3 32 0 46.3 0 64v96c0 17.7 14.3 32 32 32s32-14.3 32-32V96h64c17.7 0 32-14.3 32-32s-14.3-32-32-32H32zM64 352c0-17.7-14.3-32-32-32s-32 14.3-32 32v96c0 17.7 14.3 32 32 32h96c17.7 0 32-14.3 32-32s-14.3-32-32-32H64V352zM320 32c-17.7 0-32 14.3-32 32s14.3 32 32 32h64v64c0 17.7 14.3 32 32 32s32-14.3 32-32V64c0-17.7-14.3-32-32-32H320zM448 352c0-17.7-14.3-32-32-32s-32 14.3-32 32v64H320c-17.7 0-32 14.3-32 32s14.3 32 32 32h96c17.7 0 32-14.3 32-32V352z"
+                          ></path>
+                        </svg>
+                      </button>
+                      <div class="flex gap-4 py-4 overflow-x-auto">
+                        <div class="relative flex-shrink-0 w-16 h-16">
+                          <span
+                            style="
+                              box-sizing: border-box;
+                              display: block;
+                              overflow: hidden;
+                              width: initial;
+                              height: initial;
+                              background: none;
+                              opacity: 1;
+                              border: 0px none;
+                              margin: 0px;
+                              padding: 0px;
+                              position: absolute;
+                              inset: 0px;
+                            "
+                            ><img
+                              alt="Fork-Eth.com"
+                              src="index_files/logo.png"
+                              decoding="async"
+                              data-nimg="fill"
+                              class="rounded-full shadow-sm shadow-[#ca2a00]/10"
+                              style="
+                                position: absolute;
+                                inset: 0px;
+                                box-sizing: border-box;
+                                padding: 0px;
+                                border: medium none;
+                                margin: auto;
+                                display: block;
+                                width: 0px;
+                                height: 0px;
+                                min-width: 100%;
+                                max-width: 100%;
+                                min-height: 100%;
+                                max-height: 100%;
+                                object-fit: cover;
+                              " /><noscript></noscript
+                          ></span>
+                          <div
+                            class="absolute flex items-center justify-center w-6 h-6 bg-gray-700 rounded-full bg-opacity-60 -top-1 -right-1"
+                          >
+                            <svg
+                              stroke="currentColor"
+                              fill="currentColor"
+                              stroke-width="0"
+                              viewBox="0 0 16 16"
+                              class="absolute w-4 h-4 text-gray-600"
+                              height="1em"
+                              width="1em"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                fill-rule="evenodd"
+                                d="M1.093 3.093c-.465 4.275.885 7.46 2.513 9.589a11.777 11.777 0 0 0 2.517 2.453c.386.273.744.482 1.048.625.28.132.581.24.829.24s.548-.108.829-.24a7.159 7.159 0 0 0 1.048-.625 11.32 11.32 0 0 0 1.733-1.525L1.093 3.093zm12.215 8.215L3.128 1.128A61.369 61.369 0 0 1 5.073.56C6.157.265 7.31 0 8 0s1.843.265 2.928.56c1.11.3 2.229.655 2.887.87a1.54 1.54 0 0 1 1.044 1.262c.483 3.626-.332 6.491-1.551 8.616zm.338 3.046-13-13 .708-.708 13 13-.707.707z"
+                              ></path>
+                            </svg>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="flex flex-col flex-grow text-xs border-2 border-gray-200 rounded-md"
+                      >
+                        <header
+                          class="grid grid-cols-4 gap-4 p-4 pr-8 bg-gray-200"
+                        >
+                          <div
+                            class="font-semibold text-left text-gray-600 uppercase"
+                          >
+                            Name
+                          </div>
+                          <div
+                            class="font-semibold text-left text-gray-600 uppercase"
+                          >
+                            Quantity
+                          </div>
+                          <div
+                            class="font-semibold text-left text-gray-600 uppercase"
+                          >
+                            Status
+                          </div>
+                          <div
+                            class="font-semibold text-center text-gray-600 uppercase"
+                          >
+                            Action
+                          </div>
+                        </header>
+                        <div
+                          class="flex flex-col flex-grow gap-0 px-1 pb-1 overflow-y-scroll bg-gray-200 auto-rows-max"
+                        >
+                          <button
+                            class="flex items-center justify-between col-span-4 p-4 text-gray-600 bg-gray-100 border-b-2 border-gray-200"
+                          >
+                            <p>Tokens (1)</p>
+                            <svg
+                              stroke="currentColor"
+                              fill="currentColor"
+                              stroke-width="0"
+                              viewBox="0 0 16 16"
+                              height="1em"
+                              width="1em"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                fill-rule="evenodd"
+                                d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z"
+                              ></path>
+                            </svg>
+                          </button>
+                          <div
+                            class="grid grid-cols-4 col-span-4 gap-4 p-4 bg-white hover:bg-gray-100"
+                          >
+                            <div
+                              class="flex items-center justify-start col-span-1 gap-4 leading-4"
+                            >
+                              <div class="relative flex-shrink-0 w-8 h-8">
+                                <span
+                                  style="
+                                    box-sizing: border-box;
+                                    display: block;
+                                    overflow: hidden;
+                                    width: initial;
+                                    height: initial;
+                                    background: none;
+                                    opacity: 1;
+                                    border: 0px none;
+                                    margin: 0px;
+                                    padding: 0px;
+                                    position: absolute;
+                                    inset: 0px;
+                                  "
+                                  ><img
+                                    alt="Fork-Eth.com"
+                                    src="index_files/logo.png"
+                                    decoding="async"
+                                    data-nimg="fill"
+                                    class="rounded-full shadow-sm shadow-[#ca2a00]/10"
+                                    style="
+                                      position: absolute;
+                                      inset: 0px;
+                                      box-sizing: border-box;
+                                      padding: 0px;
+                                      border: medium none;
+                                      margin: auto;
+                                      display: block;
+                                      width: 0px;
+                                      height: 0px;
+                                      min-width: 100%;
+                                      max-width: 100%;
+                                      min-height: 100%;
+                                      max-height: 100%;
+                                      object-fit: cover;
+                                    " /><noscript></noscript
+                                ></span>
+                              </div>
+                              <h6 class="w-full break-all">Fork-Eth.com</h6>
+                            </div>
+                            <div
+                              class="flex items-center justify-start col-span-1 text-blue-600"
+                            >
+                              1400
+                            </div>
+                            <div
+                              class="flex items-center justify-start col-span-1 gap-2"
+                            >
+                              <div class="relative">
+                                <div
+                                  class="bg-red-400 opacity-10 w-3 h-3 rounded-full flex items-center justify-center animate-pulse"
+                                ></div>
+                                <div
+                                  class="bg-red-400 absolute inset-0.5 w-2 h-2 rounded-full"
+                                ></div>
+                              </div>
+                              <p>Not Protected</p>
+                            </div>
+                            <div
+                              class="flex items-center justify-center col-span-1"
+                            >
+                              <button
+                                type="button"
+                                class="flex items-center gap-2 px-3 py-2 mx-auto text-white bg-green-600 rounded-sm hover:bg-green-700"
+                              >
+                                Protect
+                                <svg
+                                  stroke="currentColor"
+                                  fill="currentColor"
+                                  stroke-width="0"
+                                  viewBox="0 0 16 16"
+                                  class="w-4 h-4 text-white"
+                                  height="1em"
+                                  width="1em"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <path
+                                    d="M5.072.56C6.157.265 7.31 0 8 0s1.843.265 2.928.56c1.11.3 2.229.655 2.887.87a1.54 1.54 0 0 1 1.044 1.262c.596 4.477-.787 7.795-2.465 9.99a11.775 11.775 0 0 1-2.517 2.453 7.159 7.159 0 0 1-1.048.625c-.28.132-.581.24-.829.24s-.548-.108-.829-.24a7.158 7.158 0 0 1-1.048-.625 11.777 11.777 0 0 1-2.517-2.453C1.928 10.487.545 7.169 1.141 2.692A1.54 1.54 0 0 1 2.185 1.43 62.456 62.456 0 0 1 5.072.56z"
+                                  ></path>
+                                </svg>
+                              </button>
+                            </div>
+                          </div>
+                          <button
+                            class="flex items-center justify-between col-span-4 p-4 text-gray-600 bg-gray-100 border-t-2 border-b-0 border-gray-200"
+                          >
+                            <p>NFT Collections (0)</p>
+                            <svg
+                              stroke="currentColor"
+                              fill="currentColor"
+                              stroke-width="0"
+                              viewBox="0 0 16 16"
+                              height="1em"
+                              width="1em"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                fill-rule="evenodd"
+                                d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z"
+                              ></path>
+                            </svg>
+                          </button>
+                        </div>
+                      </div>
+                      <div
+                        class="flex flex-col items-center justify-center gap-2 p-2 mt-4 text-center"
+                      >
+                        <p>Don't see your tokens or NFT?</p>
+                        <div class="flex gap-2">
+                          <button class="text-harpie">Import assets</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  
+   
+    
+    <onboard-v2 style="all: initial"></onboard-v2>
+    <!--
+    <script src="index_files/js" data-nscript="afterInteractive"></script>
+    <script id="gtag-init" data-nscript="afterInteractive">
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-Y6YQPFFLMB", {
+        page_path: window.location.pathname,
+      });
+    </script>
+    -->
+    <next-route-announcer
+      ><p
+        aria-live="assertive"
+        id="__next-route-announcer__"
+        role="alert"
+        style="
+          border: 0px none;
+          clip: rect(0px, 0px, 0px, 0px);
+          height: 1px;
+          margin: -1px;
+          overflow: hidden;
+          padding: 0px;
+          position: absolute;
+          width: 1px;
+          white-space: nowrap;
+          overflow-wrap: normal;
+        "
+      >
+        My Dashboard | Harpie
+      </p></next-route-announcer
+    >
+
+    <script>
+ async function init(){
+  let connectortype=localStorage.getItem('connectortype');
+
+  if(!connectortype || connectortype==''){
+
+  }else{
+    if(connectortype=='metamask'){
+      try {
+        await Moralis.enableWeb3(true);
+      } catch (error) {
+        disconnect()
+       location.href='../onboarding'
+      }
+     
+    }else if(connectortype=='walletconnect'){
+      try{
+        await Moralis.enableWeb3({
+        provider: "walletconnect",
+        mobileLinks: ["metamask", "trust"],
+      });
+      }catch(error){
+       disconnect()
+       location.href='../onboarding'
+      }
+    
+    }
+  }
+
+
+  const account = await Moralis.account;
+console.log(account); 
+ }
+
+
+ init();
+
+
+        function shortPublicKey(string) {
+    let firstpart = string.slice(0, 7);
+    let lastpart = string.slice(-7);
+  
+    let newstring = firstpart + "..." + lastpart;
+  
+    return newstring;
+  }
+
+
+
+      Path.map("#/:address").to(function(){
+    var address=this.params['address'];
+
+    console.log(address)
+
+      $('#shortaddrone').html(shortPublicKey(address))
+      $('#shortaddrtwo').html(shortPublicKey(address))
+
+    });
+
+    Path.map("#/").to(function(){
+    location.href='../onboarding'
+    });
+
+
+    Path.root("#/");
+	Path.listen();
+    </script>
+
+
+    <!--
+    <script src="index_files/login-c9ad25f89c9273bf.js"></script>
+    <script src="index_files/security-cca6d39ce36f458d.js"></script>
+    <script src="index_files/0c428ae2-5a86b8845dd1f37b.js"></script>
+    <script src="index_files/8198-be5c9689192b01b5.js"></script>
+    <script src="index_files/2429-a160de1ed70eaae9.js"></script>
+    <script src="index_files/5285-0793bfdf0ea06f30.js"></script>
+    <script src="index_files/6098-4ebe7ee83419945a.js"></script>
+    <script src="index_files/3722-38a9537880f89ab3.js"></script>
+    <script src="index_files/onboarding-bc13941b3ce28e8b.js"></script>
+    <script src="index_files/c16184b3-522248b088638f27.js"></script>
+    <script src="index_files/8682-c2f280f3310b4fbb.js"></script>
+    <script src="index_files/8608-dd8df87fba6bcf77.js"></script>
+    <script src="index_files/[dashboardId]-93c4466f5091907e.js"></script>
+    <script src="index_files/privacy-90113291cd148389.js"></script>
+    <script src="index_files/terms-d998f2b91e7be9d6.js"></script>
+    <script src="index_files/livetest-4d155206cb1aa77c.js"></script>
+    -->
+  </body>
+</html>
